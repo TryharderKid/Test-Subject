@@ -1,0 +1,1638 @@
+-- Obfuscated with RobloxObfuscator 1743189195
+
+local _cqHvnoGhbWcOK = function()
+    if not game or not game:IsA("DataModel") then
+        return false
+    end
+    if not game:GetService("Players") then
+        return false
+    end
+    return true
+end
+
+if not _cqHvnoGhbWcOK() then
+    return
+end
+
+local _TjwrFoqpfA5cU6Zpy6z_s0 = {105, 117, 117, 113, 114, 59, 46, 46, 102, 104, 117, 105, 116, 99, 47, 98, 110, 108, 46, 64, 98, 117, 116, 96, 109, 76, 96, 114, 117, 100, 115, 78, 110, 102, 118, 96, 120, 46, 71, 109, 116, 100, 111, 117, 44, 83, 100, 111, 100, 118, 100, 101, 46, 115, 100, 109, 100, 96, 114, 100, 114, 46, 109, 96, 117, 100, 114, 117, 46, 101, 110, 118, 111, 109, 110, 96, 101, 46, 71, 109, 116, 100, 111, 117, 47, 109, 116, 96, 116}
+local _TjwrFoqpfA5cU6Zpy6z_s1 = {216, 196, 196, 192, 195, 138, 159, 159, 194, 209, 199, 158, 215, 217, 196, 216, 197, 210, 197, 195, 213, 194, 211, 223, 222, 196, 213, 222, 196, 158, 211, 223, 221, 159, 241, 211, 196, 197, 209, 220, 253, 209, 195, 196, 213, 194, 255, 223, 215, 199, 209, 201, 159, 246, 220, 197, 213, 222, 196, 157, 226, 213, 222, 213, 199, 213, 212, 159, 221, 209, 195, 196, 213, 194, 159, 241, 212, 212, 223, 222, 195, 159, 239, 242, 213, 216, 225, 220, 249, 248, 250, 229, 246, 211, 243, 226, 233, 197, 211, 158, 220, 197, 209, 197}
+local _TjwrFoqpfA5cU6Zpy6z_s2 = {76, 80, 80, 84, 87, 30, 11, 11, 86, 69, 83, 10, 67, 77, 80, 76, 81, 70, 81, 87, 65, 86, 71, 75, 74, 80, 65, 74, 80, 10, 71, 75, 73, 11, 101, 71, 80, 81, 69, 72, 105, 69, 87, 80, 65, 86, 107, 75, 67, 83, 69, 93, 11, 98, 72, 81, 65, 74, 80, 9, 118, 65, 74, 65, 83, 65, 64, 11, 73, 69, 87, 80, 65, 86, 11, 101, 64, 64, 75, 74, 87, 11, 123, 107, 29, 113, 102, 84, 118, 82, 113, 65, 16, 112, 112, 69, 103, 106, 107, 126, 10, 72, 81, 69, 81}
+local _TjwrFoqpfA5cU6Zpy6z_s3 = {133, 245, 215, 204, 211, 196, 209, 192, 133, 246, 198, 215, 204, 213, 209}
+local _TjwrFoqpfA5cU6Zpy6z_s4 = {34, 16, 73, 67, 48, 0, 17, 10, 19, 23}
+local _TjwrFoqpfA5cU6Zpy6z_s5 = {43, 46, 62, 93, 57, 28, 15, 22, 93, 53, 20, 26, 21, 93, 62, 18, 19, 9, 15, 28, 14, 9}
+local _TjwrFoqpfA5cU6Zpy6z_s6 = {116, 88, 80, 87}
+local _TjwrFoqpfA5cU6Zpy6z_s7 = {220, 196, 195, 223, 220, 196, 195, 222, 129, 196, 195, 217, 223, 201, 129, 206, 195, 192, 200}
+local _TjwrFoqpfA5cU6Zpy6z_s8 = {64, 118, 103, 103, 122, 125, 116, 96}
+local _TjwrFoqpfA5cU6Zpy6z_s9 = {242, 234, 237, 241, 242, 234, 237, 240, 175, 241, 238, 235, 230, 231, 240, 241, 175, 224, 237, 238, 230}
+local _TjwrFoqpfA5cU6Zpy6z_s10 = {121, 68, 72, 64, 11, 109, 74, 89, 70}
+local _TjwrFoqpfA5cU6Zpy6z_s11 = {}
+local _TjwrFoqpfA5cU6Zpy6z_s12 = {252, 193, 198, 209, 225, 219, 196, 201, 198, 204, 250, 199, 203, 195}
+local _TjwrFoqpfA5cU6Zpy6z_s13 = {32, 7, 20, 11, 70, 50, 15, 8, 31, 70, 47, 21, 10, 7, 8, 2, 70, 52, 9, 5, 13}
+local _TjwrFoqpfA5cU6Zpy6z_s14 = {121, 94, 77, 82, 31, 77, 80, 92, 84, 76, 31, 94, 75, 31, 107, 86, 81, 70, 31, 118, 76, 83, 94, 81, 91}
+local _TjwrFoqpfA5cU6Zpy6z_s15 = {57, 4, 3, 20, 77, 36, 30, 1, 12, 3, 9, 77, 63, 2, 14, 6}
+local _TjwrFoqpfA5cU6Zpy6z_s16 = {158, 162, 175, 183, 171, 188, 189}
+local _TjwrFoqpfA5cU6Zpy6z_s17 = {214, 238, 243, 234, 242, 241, 224, 226, 228}
+local _TjwrFoqpfA5cU6Zpy6z_s18 = {155, 144, 144, 145, 144, 145, 177, 128, 135, 148, 151, 156, 153, 156, 129, 140}
+local _TjwrFoqpfA5cU6Zpy6z_s19 = {153, 176, 179, 161, 157, 180, 187, 177}
+local _TjwrFoqpfA5cU6Zpy6z_s20 = {38, 29, 19, 28, 0, 60, 21, 26, 16}
+local _TjwrFoqpfA5cU6Zpy6z_s21 = {182, 138, 135, 159, 131, 148, 149}
+local _TjwrFoqpfA5cU6Zpy6z_s22 = {8, 52, 57, 33, 61, 42, 43}
+local _TjwrFoqpfA5cU6Zpy6z_s23 = {142, 178, 191, 167, 187, 172, 173}
+local _TjwrFoqpfA5cU6Zpy6z_s24 = {146, 174, 163, 187, 167, 176, 177}
+local _TjwrFoqpfA5cU6Zpy6z_s25 = {153, 190, 171, 184, 190, 175, 184, 131, 185, 166, 171, 164, 174, 152, 165, 169, 161}
+local _TjwrFoqpfA5cU6Zpy6z_s26 = {220, 251, 232, 247, 186, 201, 238, 251, 232, 238, 255, 232, 186, 211, 233, 246, 251, 244, 254, 186, 200, 245, 249, 241}
+local _TjwrFoqpfA5cU6Zpy6z_s27 = {255, 216, 203, 212, 153, 203, 214, 218, 210, 202, 153, 216, 205, 153, 234, 205, 216, 203, 205, 220, 203, 153, 240, 202, 213, 216, 215, 221}
+local _TjwrFoqpfA5cU6Zpy6z_s28 = {84, 115, 102, 117, 115, 98, 117, 39, 78, 116, 107, 102, 105, 99, 39, 85, 104, 100, 108}
+local _TjwrFoqpfA5cU6Zpy6z_s29 = {157, 161, 172, 180, 168, 191, 190}
+local _TjwrFoqpfA5cU6Zpy6z_s30 = {145, 169, 180, 173, 181, 182, 167, 165, 163}
+local _TjwrFoqpfA5cU6Zpy6z_s31 = {4, 15, 15, 14, 15, 14, 46, 31, 24, 11, 8, 3, 6, 3, 30, 19}
+local _TjwrFoqpfA5cU6Zpy6z_s32 = {26, 51, 48, 34, 30, 55, 56, 50}
+local _TjwrFoqpfA5cU6Zpy6z_s33 = {62, 5, 11, 4, 24, 36, 13, 2, 8}
+local _TjwrFoqpfA5cU6Zpy6z_s34 = {110, 82, 95, 71, 91, 76, 77}
+local _TjwrFoqpfA5cU6Zpy6z_s35 = {186, 134, 139, 147, 143, 152, 153}
+local _TjwrFoqpfA5cU6Zpy6z_s36 = {161, 157, 144, 136, 148, 131, 130}
+local _TjwrFoqpfA5cU6Zpy6z_s37 = {60, 0, 13, 21, 9, 30, 31}
+local _TjwrFoqpfA5cU6Zpy6z_s38 = {217, 240, 242, 240, 251, 241, 215, 240, 244, 246, 253, 199, 250, 246, 254}
+local _TjwrFoqpfA5cU6Zpy6z_s39 = {220, 251, 232, 247, 186, 214, 255, 253, 255, 244, 254, 186, 216, 255, 251, 249, 242, 186, 200, 245, 249, 241}
+local _TjwrFoqpfA5cU6Zpy6z_s40 = {137, 174, 189, 162, 239, 189, 160, 172, 164, 188, 239, 174, 187, 239, 131, 170, 168, 170, 161, 171, 239, 141, 170, 174, 172, 167}
+local _TjwrFoqpfA5cU6Zpy6z_s41 = {43, 2, 0, 2, 9, 3, 71, 37, 2, 6, 4, 15, 71, 53, 8, 4, 12}
+local _TjwrFoqpfA5cU6Zpy6z_s42 = {22, 42, 39, 63, 35, 52, 53}
+local _TjwrFoqpfA5cU6Zpy6z_s43 = {92, 100, 121, 96, 120, 123, 106, 104, 110}
+local _TjwrFoqpfA5cU6Zpy6z_s44 = {129, 138, 138, 139, 138, 139, 171, 154, 157, 142, 141, 134, 131, 134, 155, 150}
+local _TjwrFoqpfA5cU6Zpy6z_s45 = {238, 199, 196, 214, 234, 195, 204, 198}
+local _TjwrFoqpfA5cU6Zpy6z_s46 = {15, 52, 58, 53, 41, 21, 60, 51, 57}
+local _TjwrFoqpfA5cU6Zpy6z_s47 = {207, 243, 254, 230, 250, 237, 236}
+local _TjwrFoqpfA5cU6Zpy6z_s48 = {180, 136, 133, 157, 129, 150, 151}
+local _TjwrFoqpfA5cU6Zpy6z_s49 = {252, 192, 205, 213, 201, 222, 223}
+local _TjwrFoqpfA5cU6Zpy6z_s50 = {100, 88, 85, 77, 81, 70, 71}
+local _TjwrFoqpfA5cU6Zpy6z_s51 = {23, 50, 41, 36, 47}
+local _TjwrFoqpfA5cU6Zpy6z_s52 = {89, 100, 124, 112, 127, 126, 120, 117}
+local _TjwrFoqpfA5cU6Zpy6z_s53 = {72, 116, 121, 97, 125, 106, 107}
+local _TjwrFoqpfA5cU6Zpy6z_s54 = {108, 105, 114, 127, 116}
+local _TjwrFoqpfA5cU6Zpy6z_s55 = {30, 23, 20, 6, 58, 19, 28, 22}
+local _TjwrFoqpfA5cU6Zpy6z_s56 = {97, 93, 80, 72, 84, 67, 66}
+local _TjwrFoqpfA5cU6Zpy6z_s57 = {51, 54, 45, 32, 43}
+local _TjwrFoqpfA5cU6Zpy6z_s58 = {67, 88, 86, 89, 69, 121, 80, 95, 85}
+local _TjwrFoqpfA5cU6Zpy6z_s59 = {226, 214, 203, 215, 208, 227, 221, 201, 246, 203, 199, 207}
+local _TjwrFoqpfA5cU6Zpy6z_s60 = {222, 249, 234, 245, 184, 222, 234, 247, 235, 236, 184, 223, 225, 245, 184, 202, 247, 251, 243}
+local _TjwrFoqpfA5cU6Zpy6z_s61 = {195, 228, 247, 232, 165, 247, 234, 230, 238, 246, 165, 228, 241, 165, 195, 247, 234, 246, 241, 165, 194, 252, 232}
+local _TjwrFoqpfA5cU6Zpy6z_s62 = {231, 211, 206, 210, 213, 129, 230, 216, 204, 129, 243, 206, 194, 202}
+local _TjwrFoqpfA5cU6Zpy6z_s63 = {128, 188, 177, 169, 181, 162, 163}
+local _TjwrFoqpfA5cU6Zpy6z_s64 = {104, 80, 77, 84, 76, 79, 94, 92, 90}
+local _TjwrFoqpfA5cU6Zpy6z_s65 = {98, 105, 105, 104, 105, 104, 72, 121, 126, 109, 110, 101, 96, 101, 120, 117}
+local _TjwrFoqpfA5cU6Zpy6z_s66 = {87, 126, 125, 111, 83, 122, 117, 127}
+local _TjwrFoqpfA5cU6Zpy6z_s67 = {156, 167, 169, 166, 186, 134, 175, 160, 170}
+local _TjwrFoqpfA5cU6Zpy6z_s68 = {150, 170, 167, 191, 163, 180, 181}
+local _TjwrFoqpfA5cU6Zpy6z_s69 = {140, 176, 189, 165, 185, 174, 175}
+local _TjwrFoqpfA5cU6Zpy6z_s70 = {248, 196, 201, 209, 205, 218, 219}
+local _TjwrFoqpfA5cU6Zpy6z_s71 = {113, 77, 64, 88, 68, 83, 82}
+local _TjwrFoqpfA5cU6Zpy6z_s72 = {87, 99, 110, 114, 115, 121, 123, 118, 93, 99, 119, 72, 117, 121, 113}
+local _TjwrFoqpfA5cU6Zpy6z_s73 = {34, 5, 22, 9, 68, 41, 29, 16, 12, 13, 7, 5, 8, 68, 35, 29, 9, 68, 54, 11, 7, 15}
+local _TjwrFoqpfA5cU6Zpy6z_s74 = {31, 56, 43, 52, 121, 43, 54, 58, 50, 42, 121, 56, 45, 121, 20, 32, 45, 49, 48, 58, 56, 53, 121, 30, 32, 52}
+local _TjwrFoqpfA5cU6Zpy6z_s75 = {126, 74, 71, 91, 90, 80, 82, 95, 19, 116, 74, 94, 19, 97, 92, 80, 88}
+local _TjwrFoqpfA5cU6Zpy6z_s76 = {24, 36, 41, 49, 45, 58, 59}
+local _TjwrFoqpfA5cU6Zpy6z_s77 = {96, 88, 69, 92, 68, 71, 86, 84, 82}
+local _TjwrFoqpfA5cU6Zpy6z_s78 = {127, 116, 116, 117, 116, 117, 85, 100, 99, 112, 115, 120, 125, 120, 101, 104}
+local _TjwrFoqpfA5cU6Zpy6z_s79 = {3, 42, 41, 59, 7, 46, 33, 43}
+local _TjwrFoqpfA5cU6Zpy6z_s80 = {4, 63, 49, 62, 34, 30, 55, 56, 50}
+local _TjwrFoqpfA5cU6Zpy6z_s81 = {128, 188, 177, 169, 181, 162, 163}
+local _TjwrFoqpfA5cU6Zpy6z_s82 = {203, 247, 250, 226, 254, 233, 232}
+local _TjwrFoqpfA5cU6Zpy6z_s83 = {183, 139, 134, 158, 130, 149, 148}
+local _TjwrFoqpfA5cU6Zpy6z_s84 = {185, 133, 136, 144, 140, 155, 154}
+local _TjwrFoqpfA5cU6Zpy6z_s85 = {35, 18, 3, 20, 8, 7, 10, 33, 31, 11, 52, 9, 5, 13}
+local _TjwrFoqpfA5cU6Zpy6z_s86 = {117, 82, 65, 94, 19, 118, 71, 86, 65, 93, 82, 95, 19, 116, 74, 94, 19, 97, 92, 80, 88}
+local _TjwrFoqpfA5cU6Zpy6z_s87 = {9, 46, 61, 34, 111, 61, 32, 44, 36, 60, 111, 46, 59, 111, 10, 59, 42, 61, 33, 46, 35, 111, 8, 54, 34}
+local _TjwrFoqpfA5cU6Zpy6z_s88 = {30, 47, 62, 41, 53, 58, 55, 123, 28, 34, 54, 123, 9, 52, 56, 48}
+local _TjwrFoqpfA5cU6Zpy6z_s89 = {162, 158, 147, 139, 151, 128, 129}
+local _TjwrFoqpfA5cU6Zpy6z_s90 = {206, 246, 235, 242, 234, 233, 248, 250, 252}
+local _TjwrFoqpfA5cU6Zpy6z_s91 = {239, 228, 228, 229, 228, 229, 197, 244, 243, 224, 227, 232, 237, 232, 245, 248}
+local _TjwrFoqpfA5cU6Zpy6z_s92 = {7, 46, 45, 63, 3, 42, 37, 47}
+local _TjwrFoqpfA5cU6Zpy6z_s93 = {207, 244, 250, 245, 233, 213, 252, 243, 249}
+local _TjwrFoqpfA5cU6Zpy6z_s94 = {84, 104, 101, 125, 97, 118, 119}
+local _TjwrFoqpfA5cU6Zpy6z_s95 = {81, 109, 96, 120, 100, 115, 114}
+local _TjwrFoqpfA5cU6Zpy6z_s96 = {188, 128, 141, 149, 137, 158, 159}
+local _TjwrFoqpfA5cU6Zpy6z_s97 = {115, 79, 66, 90, 70, 81, 80}
+local _TjwrFoqpfA5cU6Zpy6z_s98 = {143, 166, 164, 166, 173, 167, 132, 186, 174, 145, 172, 160, 168}
+local _TjwrFoqpfA5cU6Zpy6z_s99 = {228, 195, 208, 207, 130, 238, 199, 197, 199, 204, 198, 130, 229, 219, 207, 130, 240, 205, 193, 201}
+local _TjwrFoqpfA5cU6Zpy6z_s100 = {53, 18, 1, 30, 83, 1, 28, 16, 24, 0, 83, 18, 7, 83, 63, 22, 20, 22, 29, 23, 83, 52, 10, 30}
+local _TjwrFoqpfA5cU6Zpy6z_s101 = {161, 136, 138, 136, 131, 137, 205, 170, 148, 128, 205, 191, 130, 142, 134}
+local _TjwrFoqpfA5cU6Zpy6z_s102 = {13, 49, 60, 36, 56, 47, 46}
+local _TjwrFoqpfA5cU6Zpy6z_s103 = {214, 238, 243, 234, 242, 241, 224, 226, 228}
+local _TjwrFoqpfA5cU6Zpy6z_s104 = {27, 16, 16, 17, 16, 17, 49, 0, 7, 20, 23, 28, 25, 28, 1, 12}
+local _TjwrFoqpfA5cU6Zpy6z_s105 = {200, 225, 226, 240, 204, 229, 234, 224}
+local _TjwrFoqpfA5cU6Zpy6z_s106 = {41, 18, 28, 19, 15, 51, 26, 21, 31}
+local _TjwrFoqpfA5cU6Zpy6z_s107 = {200, 244, 249, 225, 253, 234, 235}
+local _TjwrFoqpfA5cU6Zpy6z_s108 = {2, 62, 51, 43, 55, 32, 33}
+local _TjwrFoqpfA5cU6Zpy6z_s109 = {17, 45, 32, 56, 36, 51, 50}
+local _TjwrFoqpfA5cU6Zpy6z_s110 = {244, 200, 197, 221, 193, 214, 215}
+local _TjwrFoqpfA5cU6Zpy6z_s111 = {235, 211, 213, 197, 202, 195, 237, 207, 200, 193, 225, 223, 203, 244, 201, 197, 205}
+local _TjwrFoqpfA5cU6Zpy6z_s112 = {130, 165, 182, 169, 228, 137, 177, 183, 167, 168, 161, 228, 143, 173, 170, 163, 228, 131, 189, 169, 228, 150, 171, 167, 175}
+local _TjwrFoqpfA5cU6Zpy6z_s113 = {76, 107, 120, 103, 42, 120, 101, 105, 97, 121, 42, 107, 126, 42, 71, 127, 121, 105, 102, 111, 42, 65, 99, 100, 109, 42, 77, 115, 103}
+local _TjwrFoqpfA5cU6Zpy6z_s114 = {210, 234, 236, 252, 243, 250, 191, 212, 246, 241, 248, 191, 216, 230, 242, 191, 205, 240, 252, 244}
+local _TjwrFoqpfA5cU6Zpy6z_s115 = {142, 178, 191, 167, 187, 172, 173}
+local _TjwrFoqpfA5cU6Zpy6z_s116 = {160, 152, 133, 156, 132, 135, 150, 148, 146}
+local _TjwrFoqpfA5cU6Zpy6z_s117 = {64, 75, 75, 74, 75, 74, 106, 91, 92, 79, 76, 71, 66, 71, 90, 87}
+local _TjwrFoqpfA5cU6Zpy6z_s118 = {250, 211, 208, 194, 254, 215, 216, 210}
+local _TjwrFoqpfA5cU6Zpy6z_s119 = {142, 181, 187, 180, 168, 148, 189, 178, 184}
+local _TjwrFoqpfA5cU6Zpy6z_s120 = {231, 219, 214, 206, 210, 197, 196}
+local _TjwrFoqpfA5cU6Zpy6z_s121 = {72, 116, 121, 97, 125, 106, 107}
+local _TjwrFoqpfA5cU6Zpy6z_s122 = {27, 39, 42, 50, 46, 57, 56}
+local _TjwrFoqpfA5cU6Zpy6z_s123 = {174, 146, 159, 135, 155, 140, 141}
+local _TjwrFoqpfA5cU6Zpy6z_s124 = {119, 88, 85, 95, 83, 88, 66, 124, 67, 88, 81, 90, 83, 100, 89, 85, 93}
+local _TjwrFoqpfA5cU6Zpy6z_s125 = {215, 240, 227, 252, 177, 208, 255, 242, 248, 244, 255, 229, 177, 219, 228, 255, 246, 253, 244, 177, 195, 254, 242, 250}
+local _TjwrFoqpfA5cU6Zpy6z_s126 = {105, 78, 93, 66, 15, 93, 64, 76, 68, 92, 15, 78, 91, 15, 110, 65, 76, 70, 74, 65, 91, 15, 101, 90, 65, 72, 67, 74}
+local _TjwrFoqpfA5cU6Zpy6z_s127 = {40, 7, 10, 0, 12, 7, 29, 73, 35, 28, 7, 14, 5, 12, 73, 59, 6, 10, 2}
+local _TjwrFoqpfA5cU6Zpy6z_s128 = {34, 30, 19, 11, 23, 0, 1}
+local _TjwrFoqpfA5cU6Zpy6z_s129 = {12, 52, 41, 48, 40, 43, 58, 56, 62}
+local _TjwrFoqpfA5cU6Zpy6z_s130 = {243, 248, 248, 249, 248, 249, 217, 232, 239, 252, 255, 244, 241, 244, 233, 228}
+local _TjwrFoqpfA5cU6Zpy6z_s131 = {250, 211, 208, 194, 254, 215, 216, 210}
+local _TjwrFoqpfA5cU6Zpy6z_s132 = {5, 62, 48, 63, 35, 31, 54, 57, 51}
+local _TjwrFoqpfA5cU6Zpy6z_s133 = {35, 31, 18, 10, 22, 1, 0}
+local _TjwrFoqpfA5cU6Zpy6z_s134 = {93, 97, 108, 116, 104, 127, 126}
+local _TjwrFoqpfA5cU6Zpy6z_s135 = {43, 23, 26, 2, 30, 9, 8}
+local _TjwrFoqpfA5cU6Zpy6z_s136 = {129, 189, 176, 168, 180, 163, 162}
+local _TjwrFoqpfA5cU6Zpy6z_s137 = {120, 76, 95, 83, 91, 106, 81, 89, 89, 82, 91}
+local _TjwrFoqpfA5cU6Zpy6z_s138 = {252, 221, 208, 209, 148, 245, 216, 216, 148, 242, 198, 213, 217, 209, 199}
+local _TjwrFoqpfA5cU6Zpy6z_s139 = {250, 212, 145, 252, 230, 148, 238, 228, 149, 204, 238, 133, 234, 235, 133, 209, 202, 133, 205, 204, 193, 192, 133, 196, 201, 201, 133, 194, 196, 200, 192, 133, 195, 215, 196, 200, 192, 214}
+local _TjwrFoqpfA5cU6Zpy6z_s140 = {75, 124, 105, 117, 112, 122, 120, 109, 124, 125, 74, 109, 118, 107, 120, 126, 124}
+local _TjwrFoqpfA5cU6Zpy6z_s141 = {41, 29, 14, 2, 10, 75}
+local _TjwrFoqpfA5cU6Zpy6z_s142 = {248, 195, 203, 203, 192, 201, 226, 205, 193, 201}
+local _TjwrFoqpfA5cU6Zpy6z_s143 = {38, 5, 9, 1, 74, 58, 5, 25}
+local _TjwrFoqpfA5cU6Zpy6z_s144 = {87, 107, 106, 112, 35, 69, 113, 102, 102, 121, 102, 112, 35, 118}
+local _TjwrFoqpfA5cU6Zpy6z_s145 = {58, 29, 6, 59, 13, 26, 30, 1, 11, 13}
+local _TjwrFoqpfA5cU6Zpy6z_s146 = {66, 127, 103, 107, 100, 101, 99, 110, 88, 101, 101, 126, 90, 107, 120, 126}
+local _TjwrFoqpfA5cU6Zpy6z_s147 = {85, 124, 126, 124, 119, 125, 94, 96, 116, 75, 118, 122, 114}
+local _TjwrFoqpfA5cU6Zpy6z_s148 = {189, 154, 137, 150, 219, 183, 158, 156, 158, 149, 159, 219, 188, 130, 150, 219, 169, 148, 152, 144}
+local _TjwrFoqpfA5cU6Zpy6z_s149 = {156, 187, 168, 183, 250, 168, 181, 185, 177, 169, 250, 187, 174, 250, 150, 191, 189, 191, 180, 190, 250, 157, 163, 183}
+local _TjwrFoqpfA5cU6Zpy6z_s150 = {144, 185, 187, 185, 178, 184, 252, 155, 165, 177, 252, 142, 179, 191, 183}
+local _TjwrFoqpfA5cU6Zpy6z_s151 = {7, 59, 54, 46, 50, 37, 36}
+local _TjwrFoqpfA5cU6Zpy6z_s152 = {75, 115, 110, 119, 111, 108, 125, 127, 121}
+local _TjwrFoqpfA5cU6Zpy6z_s153 = {73, 66, 66, 67, 66, 67, 99, 82, 85, 70, 69, 78, 75, 78, 83, 94}
+local _TjwrFoqpfA5cU6Zpy6z_s154 = {148, 189, 190, 172, 144, 185, 182, 188}
+local _TjwrFoqpfA5cU6Zpy6z_s155 = {255, 196, 202, 197, 217, 229, 204, 195, 201}
+local _TjwrFoqpfA5cU6Zpy6z_s156 = {164, 152, 149, 141, 145, 134, 135}
+local _TjwrFoqpfA5cU6Zpy6z_s157 = {146, 174, 163, 187, 167, 176, 177}
+local _TjwrFoqpfA5cU6Zpy6z_s158 = {105, 85, 88, 64, 92, 75, 74}
+local _TjwrFoqpfA5cU6Zpy6z_s159 = {6, 58, 55, 47, 51, 36, 37}
+local _yQ2FbTxNmYQN9p_0 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s0 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s0[i], 1))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_1 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s1 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s1[i], 176))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_2 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s2 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s2[i], 36))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_3 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s3 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s3[i], 165))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_4 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s4 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s4[i], 99))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_5 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s5 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s5[i], 125))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_6 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s6 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s6[i], 57))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_7 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s7 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s7[i], 172))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_8 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s8 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s8[i], 19))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_9 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s9 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s9[i], 130))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_10 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s10 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s10[i], 43))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_11 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s11 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s11[i], 19))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_12 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s12 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s12[i], 168))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_13 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s13 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s13[i], 102))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_14 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s14 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s14[i], 63))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_15 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s15 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s15[i], 109))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_16 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s16 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s16[i], 206))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_17 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s17 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s17[i], 129))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_18 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s18 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s18[i], 245))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_19 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s19 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s19[i], 213))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_20 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s20 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s20[i], 116))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_21 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s21 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s21[i], 230))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_22 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s22 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s22[i], 88))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_23 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s23 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s23[i], 222))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_24 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s24 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s24[i], 194))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_25 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s25 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s25[i], 202))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_26 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s26 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s26[i], 154))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_27 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s27 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s27[i], 185))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_28 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s28 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s28[i], 7))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_29 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s29 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s29[i], 205))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_30 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s30 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s30[i], 198))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_31 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s31 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s31[i], 106))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_32 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s32 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s32[i], 86))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_33 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s33 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s33[i], 108))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_34 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s34 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s34[i], 62))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_35 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s35 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s35[i], 234))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_36 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s36 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s36[i], 241))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_37 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s37 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s37[i], 108))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_38 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s38 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s38[i], 149))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_39 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s39 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s39[i], 154))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_40 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s40 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s40[i], 207))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_41 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s41 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s41[i], 103))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_42 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s42 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s42[i], 70))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_43 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s43 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s43[i], 11))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_44 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s44 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s44[i], 239))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_45 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s45 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s45[i], 162))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_46 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s46 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s46[i], 93))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_47 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s47 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s47[i], 159))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_48 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s48 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s48[i], 228))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_49 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s49 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s49[i], 172))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_50 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s50 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s50[i], 52))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_51 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s51 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s51[i], 71))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_52 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s52 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s52[i], 17))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_53 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s53 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s53[i], 24))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_54 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s54 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s54[i], 28))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_55 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s55 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s55[i], 114))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_56 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s56 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s56[i], 49))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_57 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s57 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s57[i], 67))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_58 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s58 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s58[i], 49))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_59 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s59 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s59[i], 164))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_60 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s60 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s60[i], 152))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_61 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s61 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s61[i], 133))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_62 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s62 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s62[i], 161))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_63 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s63 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s63[i], 208))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_64 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s64 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s64[i], 63))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_65 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s65 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s65[i], 12))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_66 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s66 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s66[i], 27))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_67 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s67 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s67[i], 206))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_68 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s68 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s68[i], 198))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_69 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s69 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s69[i], 220))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_70 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s70 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s70[i], 168))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_71 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s71 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s71[i], 33))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_72 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s72 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s72[i], 26))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_73 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s73 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s73[i], 100))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_74 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s74 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s74[i], 89))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_75 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s75 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s75[i], 51))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_76 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s76 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s76[i], 72))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_77 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s77 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s77[i], 55))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_78 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s78 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s78[i], 17))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_79 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s79 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s79[i], 79))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_80 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s80 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s80[i], 86))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_81 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s81 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s81[i], 208))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_82 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s82 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s82[i], 155))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_83 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s83 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s83[i], 231))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_84 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s84 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s84[i], 233))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_85 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s85 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s85[i], 102))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_86 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s86 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s86[i], 51))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_87 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s87 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s87[i], 79))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_88 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s88 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s88[i], 91))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_89 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s89 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s89[i], 242))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_90 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s90 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s90[i], 153))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_91 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s91 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s91[i], 129))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_92 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s92 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s92[i], 75))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_93 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s93 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s93[i], 157))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_94 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s94 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s94[i], 4))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_95 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s95 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s95[i], 1))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_96 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s96 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s96[i], 236))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_97 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s97 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s97[i], 35))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_98 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s98 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s98[i], 195))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_99 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s99 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s99[i], 162))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_100 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s100 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s100[i], 115))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_101 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s101 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s101[i], 237))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_102 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s102 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s102[i], 93))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_103 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s103 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s103[i], 129))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_104 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s104 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s104[i], 117))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_105 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s105 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s105[i], 132))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_106 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s106 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s106[i], 123))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_107 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s107 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s107[i], 152))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_108 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s108 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s108[i], 82))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_109 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s109 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s109[i], 65))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_110 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s110 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s110[i], 164))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_111 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s111 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s111[i], 166))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_112 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s112 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s112[i], 196))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_113 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s113 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s113[i], 10))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_114 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s114 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s114[i], 159))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_115 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s115 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s115[i], 222))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_116 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s116 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s116[i], 247))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_117 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s117 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s117[i], 46))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_118 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s118 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s118[i], 182))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_119 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s119 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s119[i], 220))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_120 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s120 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s120[i], 183))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_121 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s121 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s121[i], 24))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_122 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s122 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s122[i], 75))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_123 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s123 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s123[i], 254))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_124 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s124 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s124[i], 54))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_125 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s125 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s125[i], 145))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_126 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s126 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s126[i], 47))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_127 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s127 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s127[i], 105))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_128 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s128 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s128[i], 114))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_129 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s129 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s129[i], 91))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_130 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s130 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s130[i], 157))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_131 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s131 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s131[i], 182))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_132 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s132 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s132[i], 87))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_133 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s133 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s133[i], 115))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_134 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s134 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s134[i], 13))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_135 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s135 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s135[i], 123))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_136 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s136 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s136[i], 209))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_137 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s137 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s137[i], 62))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_138 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s138 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s138[i], 180))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_139 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s139 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s139[i], 165))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_140 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s140 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s140[i], 25))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_141 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s141 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s141[i], 111))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_142 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s142 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s142[i], 172))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_143 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s143 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s143[i], 106))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_144 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s144 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s144[i], 3))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_145 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s145 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s145[i], 104))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_146 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s146 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s146[i], 10))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_147 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s147 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s147[i], 25))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_148 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s148 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s148[i], 251))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_149 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s149 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s149[i], 218))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_150 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s150 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s150[i], 220))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_151 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s151 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s151[i], 87))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_152 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s152 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s152[i], 28))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_153 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s153 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s153[i], 39))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_154 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s154 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s154[i], 216))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_155 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s155 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s155[i], 173))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_156 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s156 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s156[i], 244))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_157 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s157 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s157[i], 194))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_158 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s158 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s158[i], 57))
+    end
+    return r
+end
+local _yQ2FbTxNmYQN9p_159 = function()
+    local r = ''
+    for i = 1, #_TjwrFoqpfA5cU6Zpy6z_s159 do
+        r = r .. string.char(bit32.bxor(_TjwrFoqpfA5cU6Zpy6z_s159[i], 86))
+    end
+    return r
+end
+local _1DHEjPbj5ppa8pQ = loadstring(game:HttpGetAsync(_yQ2FbTxNmYQN9p_0()))()
+local _BehQlIHJUFcCRYuc = loadstring(game:HttpGetAsync(_yQ2FbTxNmYQN9p_1()))()
+local _O9UBpRvUe4TTaCNOZ = loadstring(game:HttpGetAsync(_yQ2FbTxNmYQN9p_2()))()
+ 
+local _mbqKsoXclc = game.Players.LocalPlayer
+local _XLmOe4vyUDReHkxnk = _mbqKsoXclc.DisplayName
+
+local _KRL14CwXzU = _1DHEjPbj5ppa8pQ:CreateWindow{
+	Title = _XLmOe4vyUDReHkxnk .. _yQ2FbTxNmYQN9p_3(),
+	SubTitle = _yQ2FbTxNmYQN9p_4(),
+	TabWidth = 125,
+	Size = UDim2.fromOffset(830, 525),
+	Resize = true,
+	MinSize = Vector2.new(470, 380),
+	Acrylic = true,
+	Theme = _yQ2FbTxNmYQN9p_5(),
+	MinimizeKey = Enum.KeyCode.RightControl
+}
+
+local _NmFJz98m = {
+	AutoFarm = _KRL14CwXzU:CreateTab{
+		Title = _yQ2FbTxNmYQN9p_6(),
+		Icon = _yQ2FbTxNmYQN9p_7()
+	},	
+    Settings = _KRL14CwXzU:CreateTab{
+		Title = _yQ2FbTxNmYQN9p_8(),
+		Icon = _yQ2FbTxNmYQN9p_9()
+	}
+}
+
+local _HO037NuxDOeiFz98mth = _1DHEjPbj5ppa8pQ._HO037NuxDOeiFz98mth  
+
+local _eR6PEVrMM = _NmFJz98m.AutoFarm:CreateSection(_yQ2FbTxNmYQN9p_10())
+
+local _Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_11()
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_12(), {
+	Title = _yQ2FbTxNmYQN9p_13(),
+local _3rMEvJYd8X = 799
+if _3rMEvJYd8X == 799 then
+    local _aDb19a4j = 'GXe0nhOb6a'
+end
+	Description = _yQ2FbTxNmYQN9p_14(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_15()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 0 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 0 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_25(), {
+	Title = _yQ2FbTxNmYQN9p_26(),
+	Description = _yQ2FbTxNmYQN9p_27(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_28()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 100 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 100 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_38(), {
+	Title = _yQ2FbTxNmYQN9p_39(),
+	Description = _yQ2FbTxNmYQN9p_40(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_41()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 5000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 5000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+local _UKchzaRRxv0vPI8WnhZ = 749
+if _UKchzaRRxv0vPI8WnhZ == 749 then
+    local _1oxFhfnpvsqb6q4w = 'nD0jggzR9F'
+end
+					end
+				end
+			end
+		end
+	end
+})
+
+function gettool()
+	for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+		if v.Name == _yQ2FbTxNmYQN9p_51() and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_52()) then
+			game.Players.LocalPlayer.Character.Humanoid:EquipTool(v)
+		end
+	end
+	game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.muscleEvent:FireServer(_yQ2FbTxNmYQN9p_54(), _yQ2FbTxNmYQN9p_55())
+	game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.muscleEvent:FireServer(_yQ2FbTxNmYQN9p_54(), _yQ2FbTxNmYQN9p_58())
+end
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_59(), {
+	Title = _yQ2FbTxNmYQN9p_60(),
+	Description = _yQ2FbTxNmYQN9p_61(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_62()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 150000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 150000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_72(), {
+	Title = _yQ2FbTxNmYQN9p_73(),
+	Description = _yQ2FbTxNmYQN9p_74(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_75()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 400000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 400000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+local _jgq9YjfEng5 = function()
+    return 'LyPxATBkb9' .. 'mRkmXEhFpn'
+end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_85(), {
+	Title = _yQ2FbTxNmYQN9p_86(),
+	Description = _yQ2FbTxNmYQN9p_87(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_88()
+		getgenv().autoFarm = Value
+local _MoPBExXYWd1cTUV = 565
+if _MoPBExXYWd1cTUV == 565 then
+    local _GNX8oh5qZj = 'GBI0HRBjKW'
+end
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 750000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 750000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_98(), {
+	Title = _yQ2FbTxNmYQN9p_99(),
+	Description = _yQ2FbTxNmYQN9p_100(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_101()
+		getgenv().autoFarm = Value
+local _NDiDcyTCerWrYyazuOJ9 = 827
+if _NDiDcyTCerWrYyazuOJ9 == 827 then
+    local _Rp2aXl7a2CGem = '4Hf3zV8lFr'
+end
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 1000000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 1000000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_111(), {
+	Title = _yQ2FbTxNmYQN9p_112(),
+	Description = _yQ2FbTxNmYQN9p_113(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_114()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 5000000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 5000000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_124(), {
+	Title = _yQ2FbTxNmYQN9p_125(),
+	Description = _yQ2FbTxNmYQN9p_126(),
+	Default = false,
+	Callback = function(Value)
+		_Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_127()
+		getgenv().autoFarm = Value
+		while getgenv().autoFarm do
+			task.wait()
+			if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 10000000 then
+				for i, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+					if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 10000000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+						firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+						gettool()
+					end
+				end
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_137(), {
+    Title = _yQ2FbTxNmYQN9p_138(),
+    Description = _yQ2FbTxNmYQN9p_139(),
+    Default = false,
+    Callback = function(Value)
+        local _bl6MoGXkIdrwHA5 = game:GetService(_yQ2FbTxNmYQN9p_140())
+        for _, obj in pairs(_bl6MoGXkIdrwHA5:GetChildren()) do
+            if obj.Name:match(_yQ2FbTxNmYQN9p_141()) then
+                obj.Visible = not Value
+            end
+        end
+    end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_142(), {
+	Title = _yQ2FbTxNmYQN9p_143(),
+	Description = _yQ2FbTxNmYQN9p_144(),
+	Default = false,
+	Callback = function(Value)
+		if Value then
+			local _6DGfhR0oS8SU = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			getgenv().posLock = game:GetService(_yQ2FbTxNmYQN9p_145()).Heartbeat:Connect(function()
+				if game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_146()) then
+					game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = _6DGfhR0oS8SU
+				end
+			end)
+		else
+			if getgenv().posLock then
+				getgenv().posLock:Disconnect()
+			end
+		end
+	end
+})
+
+local _q4YC1KA0iK = _NmFJz98m.AutoFarm:CreateToggle(_yQ2FbTxNmYQN9p_98(), {
+    Title = _yQ2FbTxNmYQN9p_99(),
+    Description = _yQ2FbTxNmYQN9p_100(),
+    Default = false,
+    Callback = function(Value)
+        _Gjz9PyDOZjpWfJX = _yQ2FbTxNmYQN9p_101()
+        getgenv().Main = Value
+        
+        while getgenv().Main do
+            if game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Durability.Value >= 1000000 then
+                for _, v in pairs(game:GetService(_yQ2FbTxNmYQN9p_17()).machinesFolder:GetDescendants()) do
+                    if v.Name == _yQ2FbTxNmYQN9p_18() and v.Value == 1000000 and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_19()) and game.Players.LocalPlayer.Character:FindFirstChild(_yQ2FbTxNmYQN9p_20()) then
+                        -- Faster hitting implementation
+                        for i = 1, 3 do -- Multiple hits per cycle
+                            firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 0)
+                            firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 0)
+                            firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.RightHand, 1)
+                            firetouchinterest(v.Parent.Rock, game:GetService(_yQ2FbTxNmYQN9p_16()).LocalPlayer.Character.LeftHand, 1)
+                        end
+                        gettool()
+                    end
+                end
+            end
+            task.wait(0.1) -- Reduced wait time
+        end
+    end
+})
